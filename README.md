@@ -2,6 +2,20 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Environment Setup
+
+Before running the app, you need to set up your environment variables:
+
+1. Create a `.env` file in the root directory
+2. Add the following variables:
+
+```bash
+EXPO_PUBLIC_API_URL=https://api.themoviedb.org/3
+EXPO_PUBLIC_API_KEY=your_tmdb_api_key_here
+```
+
+3. Get your API key from [The Movie Database](https://www.themoviedb.org/settings/api)
+
 ## Get started
 
 1. Install dependencies
